@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If</title>
+</head>
+<body>
+    <form action="">
+        <label for="">Enter your Age</label><br>
+        <input type="text" name="" id="Agev"><br>
+        <button type="button" style="margin-left: 50px; margin-top: 11px;" onclick="vote()">Check</button>
+    </form>
+
+    <script>
+        function vote(){
+        let b=document.getElementById("Agev").value;
+        if(b>=18){
+            alert("You are eligible for vote")
+        }
+        else
+        {
+            alert("You are Not eligible for vote") 
+        }
+        }
+    </script>
+</body>
+</html>
